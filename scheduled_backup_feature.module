@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Scheduled Backup Feature feature.
+ */
+
+include_once 'scheduled_backup_feature.features.inc';

@@ -1,0 +1,17 @@
+name = Scheduled Backup Feature
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = scheduled_backup_feature
+dependencies[] = backup_migrate
+dependencies[] = ctools
+dependencies[] = elysia_cron
+features[backup_migrate_destinations][] = daily_scheduled_backups
+features[backup_migrate_destinations][] = monthly
+features[backup_migrate_destinations][] = weekly_scheduled_backups_directory
+features[backup_migrate_profiles][] = general_backup
+features[backup_migrate_schedules][] = daily_schedule
+features[backup_migrate_schedules][] = monthly_scheduled
+features[backup_migrate_schedules][] = weekly_schedule
+features[ctools][] = backup_migrate:backup_migrate_exportables:1
+features[features_api][] = api:2
