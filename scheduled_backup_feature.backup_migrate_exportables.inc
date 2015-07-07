@@ -69,9 +69,9 @@ function scheduled_backup_feature_exportables_backup_migrate_profiles() {
   $item->filters = array(
     'compression' => 'gzip',
     'notify_success_enable' => 0,
-    'notify_success_email' => 'developers@genero.fi',
+    'notify_success_email' => 'dev@genero.fi',
     'notify_failure_enable' => 1,
-    'notify_failure_email' => 'developers@genero.fi',
+    'notify_failure_email' => 'dev@genero.fi',
     'utils_site_offline' => 0,
     'utils_site_offline_message' => 'The site is currently under maintenance. We should be back shortly. Thank you for your patience.',
     'utils_description' => '',
